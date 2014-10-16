@@ -1,0 +1,46 @@
+
+html, body {
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+
+.main_content{
+
+}
+
+#matrix_graphic{
+    float: right;
+   /* text-align: right; */
+    position:absolute;
+
+    text-align: center;
+
+}
+.cell{
+
+position:absolute;
+border:2px solid hotpink;
+font-size: xx-large;
+color:transparent;
+
+}
+.notselected {
+
+    background-image: url('../images/question_mark50x50.png');
+}
+
+
+#success {
+
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('../images/success.png');
+    visibility:hidden;
+
+}

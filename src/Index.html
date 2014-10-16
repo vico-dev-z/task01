@@ -1,0 +1,39 @@
+<head>
+    <title>JS Matching Game</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body>
+<div id="main_content">
+<h1>JS Matching Game </h1>
+
+
+<div id="selector">
+<p>
+    Select the size of the matrix and then click on Generate
+    <select id="matrix_size">
+        <option value="1" disabled="disabled" selected="selected" >-- Select an option -- </option>
+        <option value="2">2 x 2</option>
+        <option value="4">4 x 4</option>
+        <option value="6">6 x 6</option>
+        <option value="8">8 x 8</option>
+        <option value="10">10 x 10</option>
+    </select>
+</p>
+<p><span id="message"></span></p>
+</div>
+<form>
+
+    <input type="button" value="Generate Matrix" id="generator">
+    <input type="button" value="Reset Matrix" id="reset">
+
+</form>
+<div id="success">Congrats, you did it! You finished the game.</div>
+</div>
+
+<div id="matrix_graphic">
+
+</div>
+
+<script type="text/javascript" src="js/matching_logic.js"></script>
+</body>
